@@ -46,10 +46,6 @@ export function Navbar({ onSearch }: NavbarProps) {
           </nav>
 
           <div className="flex items-center gap-3">
-            <div className="hidden md:block w-56">
-              <Searchbar onSearch={onSearch} />
-            </div>
-
             {/* mobile hamburger */}
             <button
               aria-label={open ? 'Close menu' : 'Open menu'}
@@ -85,3 +81,4 @@ export function Navbar({ onSearch }: NavbarProps) {
     </header>
   );
 }
+
