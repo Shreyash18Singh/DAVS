@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jr Hub",
-  description: "Created by Sheninth Jr",
+  title: "Gyaan Guru",
+  description: "Created by Shreyash & Ansh",
 };
 
 export default function RootLayout({
@@ -33,3 +33,4 @@ export default function RootLayout({
     </html>
   );
 }
+
